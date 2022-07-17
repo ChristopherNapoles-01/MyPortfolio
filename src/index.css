@@ -96,7 +96,15 @@ code {
   color: white;
   letter-spacing:2px;
 }
-
+@media (max-width: 800px) {
+  .details{
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 50px;
+    color: white;
+    letter-spacing:2px;
+  }
+}
 .images{
   display: flex;
   flex-direction: row;
