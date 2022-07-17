@@ -8,6 +8,11 @@ import BookHome from '../assets/projects/bookhome.png';
 import BookPage from '../assets/projects/bookpage.png';
 import MarvelHome from '../assets/projects/marvelHome.png';
 import CharacterPage from '../assets/projects/character.png';
+import Facebook from '../assets/projects/fb.png';
+import Git from '../assets/projects/git.png';
+import Gmail from '../assets/projects/gmail.png';
+import Linkedin from '../assets/projects/linkin.png';
+import Phone from '../assets/projects/phone.png'
 
    export const projects = [
         {
@@ -49,6 +54,33 @@ import CharacterPage from '../assets/projects/character.png';
             details:'The Book Worm web app is a Marvel hero guide app that is made with react JS using Marvel api and bootstrap css',
             github:'https://github.com/ChristopherNapoles-01/marvel',
             link: 'https://christophernapoles-01.github.io/marvel/'
+        },
+    ]
+    export const channels = [
+        {
+            label:'facebook',
+            img:Facebook,
+            details:'https://www.facebook.com/profile.php?id=100078784126598'
+        },
+        {
+            label:'github',
+            img:Git,
+            details:'ChristopherNapoles-01'
+        },
+        {
+            label:'linkedin',
+            img:Linkedin,
+            details:'www.linkedin.com/in/christopher-napoles-117821203'
+        },
+        {
+            label:'email',
+            img:Gmail,
+            details:'christophernapoles35@gmail.com'
+        },
+        {
+            label:'phone',
+            img:Phone,
+            details:'09683443990'
         },
     ]
 

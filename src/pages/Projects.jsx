@@ -1,11 +1,13 @@
 import {projects as projectList} from "../components/Projects"
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import ImageViewer from 'react-simple-image-viewer';
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Projects = () => {
     let i = 0;
     const [openView,setOpenView] = useState(false);
     const [showImage,setShowImage] = useState([]);
+    const [handleScroll,setHandleScroll] = useState();
 
     const viewImage = (e) => {
         setOpenView(true);
@@ -14,6 +16,9 @@ const Projects = () => {
     const closeViewImage = () => {
         setOpenView(false);
     }
+    useEffect(()=>{
+        Aos.init({duration:3000});
+    },[])
     return(
         <div className="body list-body">
      
@@ -21,7 +26,7 @@ const Projects = () => {
                 <div className="list-container" key={i}>
                     <div className="proj-details">{i+ '. ' +c.name}</div>
                     <div className="proj-details">{c.description}</div>
-                    <div className="proj-images-container">{c.img.map((e) => (<img src={e} className='proj-images' onClick={()=>viewImage(e)}/>))}</div>
+                    <div className="proj-images-container">{c.img.map((e) => (<img data-aos="fade" data-aos-once="false" src={e} className='proj-images' onClick={()=>viewImage(e)}/>))}</div>
                     <div className="proj-details">{c.details}</div>
                     {c.github ?
                         <div><a href={c.github} target='_blank' rel="noreferrer" className="proj-details">GitHub Link: {c.github}</a></div>
@@ -30,7 +35,7 @@ const Projects = () => {
                     }
                     <a href={c.link} target='_blank' rel="noreferrer" className="proj-details">Website Link: {c.link}</a>
 
-                </div>              
+                </div>           
             )})}
             {openView && (
                 <ImageViewer

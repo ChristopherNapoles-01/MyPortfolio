@@ -20,6 +20,7 @@ code {
 .body{
   margin: 10px;
   margin-bottom: 20px;
+  color: white;
 }
 .navbar{
   height: 50px;
@@ -39,7 +40,7 @@ code {
 }
 .intro{
   color: white;
-  font-size: 60px; 
+  font-size: 40px; 
 }
 .home-container .intro{
   text-align: center;
@@ -61,9 +62,21 @@ code {
     height: auto;
   }
 }
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
 .btn{
   display: flex;
   justify-content: center;
+  margin: 10px;
+}
+@media (max-width: 800px) {
+  .btn-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 .project-button{
 
@@ -124,16 +137,20 @@ code {
   margin-top: 20px;
   margin: 10px;
   height: 150px;
-  width: 150x;
+  width: 90%;
 }
 .icons-label{
+  display: flex;
+  align-items: center;
   color: white;
-  margin-left: 50px;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
 }
 @media (max-width: 800px) {
   .icons{
     margin-top: 20px;
-    margin: 10px;
+    margin-left: 20px;
     height: auto;
     width: 80%;
   }
@@ -164,6 +181,7 @@ code {
   }
   .proj-images{
     margin: 10px;
+    margin-left: 0px;
     width: 100%;
     height: auto;
     border-radius:5px ;
@@ -177,6 +195,93 @@ code {
 .list-body{
   margin: 50px;
 }
+.list-container{
+  margin-bottom: 40px;
+}
+.list-container a{
+  text-decoration: none;
+}
+.form{
+  text-align: center;
+}
+.message-input{
+  height: 300px;
+  width: 60%;
+  font-family: 'Orbitron', sans-serif;
+  border: white 2px solid;
+  background-color: transparent;
+  color: white;
+  resize: none;
+  letter-spacing:2px;
+  line-height: 50px;
+  padding: 10px;
+}
+.message-input:focus{
+  outline: none;
+}
+.label{
+  margin: 10px;
+}
+.from-input{
+  height: 20px;
+  width: 28%;
+  font-family: 'Orbitron', sans-serif;
+  border: white 2px solid;
+  background-color: transparent;
+  color: white;
+  resize: none;
+  letter-spacing:2px;
+  line-height: 50px;
+  padding: 10px;
+  font-size: 12px;
+}
+.from-input:focus{
+  outline: none;
+}
+.email{
+  margin-bottom: 20px;
+}
+.message-detail-container{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 18%;
+}
+.send-button{
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  height: 30px;
+  background-color: black;
+  color:white;
+  font-size: 15px;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.send-button:hover{
+  color: #6496e8;
+}
+.contact-channels{
+  display: flex;
+  flex-direction: row;
+}
+.channel-images{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.channel-container{
+  
+}
+.channel-content-container{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 20%;
+}
+.channel-details{
+  letter-spacing: 2px;
+}
 @media (max-width: 800px) {
   .proj-details{
     line-height: 50px;
@@ -187,11 +292,50 @@ code {
   .list-body{
     margin: 10px;
   }
-}
-.list-container{
-  margin-bottom: 40px;
-}
-.list-container a{
-  text-decoration: none;
+  .message-input{
+    height: 300px;
+    width: 90%;
+    font-family: 'Orbitron', sans-serif;
+    border: white 2px solid;
+    background-color: transparent;
+    color: white;
+    resize: none;
+    letter-spacing:2px;
+    line-height: 50px;
+    padding: 10px;
+  }
+  .from-input{
+    height: 20px;
+    width: 90%;
+    font-family: 'Orbitron', sans-serif;
+    border: white 2px solid;
+    background-color: transparent;
+    color: white;
+    resize: none;
+    letter-spacing:2px;
+    line-height: 50px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .message-detail-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .label{
+    text-align: center;
+  }
+  .channel-content-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+  .channel-details{
+    letter-spacing: 2px;
+    font-size: 80%;
+  }
 }
 

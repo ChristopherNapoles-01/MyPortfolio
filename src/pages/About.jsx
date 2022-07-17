@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Me from '../assets/naps.jpg';
 import Php from '../assets/php.jpg';
 import JavaScript from '../assets/javascript.png';
@@ -10,6 +11,8 @@ import Ajax from '../assets/ajax.jpg';
 import Java from '../assets/java.png';
 import Golang from '../assets/golang.png';
 import Tailwind from '../assets/projects/tailwind.png';
+import Aos from "aos";
+import "aos/dist/aos.css";
 const About = () => {
     const primary = [
         {label:'Php',img:Php},
@@ -27,6 +30,9 @@ const About = () => {
         {label:'Tailwind CSS',img:Tailwind},
         
     ];
+    useEffect(()=>{
+        Aos.init({duration:2000});
+    },[])
     return(
         <div className="body">
             <div className="about">
@@ -40,7 +46,7 @@ const About = () => {
             <div className='images'>
                 {
                     primary.map(e=>(
-                        <div className='icons-container'>
+                        <div data-aos="fade" data-aos-once="false" className='icons-container'>
                             <img className='icons' src={e.img}/>
                             <div className='icons-label'>{e.label}</div>
                         </div>
@@ -53,7 +59,7 @@ const About = () => {
             <div className='images'>
                 {
                     fundamentals.map(e=>(
-                        <div className='icons-container'>
+                        <div data-aos="fade" data-aos-once="false" className='icons-container'>
                             <img className='icons' src={e.img}/>
                             <div className='icons-label'>{e.label}</div>
                         </div>
