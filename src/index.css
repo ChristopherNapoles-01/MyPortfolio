@@ -96,13 +96,7 @@ code {
   color: white;
   letter-spacing:2px;
 }
-@media (max-width: 800px) {
-  .details{
-    line-height: 50px;
-    color: white;
-    letter-spacing:2px;
-  }
-}
+
 .images{
   display: flex;
   flex-direction: row;
@@ -162,7 +156,7 @@ code {
   }
   .proj-images{
     margin: 10px;
-    width: 80%;
+    width: 100%;
     height: auto;
     border-radius:5px ;
   }
@@ -171,6 +165,14 @@ code {
   line-height: 50px;
   color: white;
   letter-spacing:2px;
+}
+@media (max-width: 800px) {
+  .proj-details{
+    line-height: 50px;
+    color: white;
+    letter-spacing:2px;
+    font-size: 95%;
+  }
 }
 .list-body{
   margin: 50px;
