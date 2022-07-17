@@ -174,6 +174,9 @@ code {
   color: white;
   letter-spacing:2px;
 }
+.list-body{
+  margin: 50px;
+}
 @media (max-width: 800px) {
   .proj-details{
     line-height: 50px;
@@ -181,9 +184,9 @@ code {
     letter-spacing:2px;
     font-size: 80%;
   }
-}
-.list-body{
-  margin: 50px;
+  .list-body{
+    margin: 10px;
+  }
 }
 .list-container{
   margin-bottom: 40px;
