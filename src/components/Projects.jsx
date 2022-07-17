@@ -51,7 +51,7 @@ import Phone from '../assets/projects/phone.png'
             name:'Marvel Guide Site',
             description:'A Marvel Hero Guide Site',
             img:[MarvelHome,CharacterPage],
-            details:'The Book Worm web app is a Marvel hero guide app that is made with react JS using Marvel api and bootstrap css',
+            details:'The Marvel Guide Site web app is a Marvel hero guide app that is made with react JS using Marvel api and bootstrap css',
             github:'https://github.com/ChristopherNapoles-01/marvel',
             link: 'https://christophernapoles-01.github.io/marvel/'
         },
@@ -60,7 +60,7 @@ import Phone from '../assets/projects/phone.png'
         {
             label:'facebook',
             img:Facebook,
-            details:'https://www.facebook.com/profile.php?id=100078784126598'
+            details:'www.facebook.com/profile.php?id=100078784126598'
         },
         {
             label:'github',
