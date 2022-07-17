@@ -96,6 +96,13 @@ code {
   color: white;
   letter-spacing:2px;
 }
+@media (max-width: 800px) {
+  .details{
+    line-height: 50px;
+    color: white;
+    letter-spacing:2px;
+  }
+}
 .images{
   display: flex;
   flex-direction: row;
@@ -120,6 +127,14 @@ code {
 .icons-label{
   color: white;
   margin-left: 50px;
+}
+@media (max-width: 800px) {
+  .icons{
+    margin-top: 20px;
+    margin: 10px;
+    height: auto;
+    width: 80%;
+  }
 }
 .proj-images-container{
   display: flex;
