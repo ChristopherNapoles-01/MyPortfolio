@@ -1,4 +1,4 @@
-import { useEffect,useState } from "react";
+import { useState } from "react";
 import {channels} from '../components/Projects'
 import emailjs from 'emailjs-com';
 import Modal from "../components/Modal";
@@ -40,7 +40,7 @@ const Contact = () => {
                     <label className="label">Subject:</label>
                     <input name='subject' value={subject} onChange={(e) => {setSubject(e.target.value)}} placeholder="Subject" type="text" className="from-input" required/>
                     <label className="label">From:</label>
-                    <input name="email" value={email} onChange={(e) => {setEmail(e.target.value)}} placeholder="Email" type="text" className="from-input email" required/>
+                    <input name="email" value={email} onChange={(e) => {setEmail(e.target.value)}} placeholder="Email" type="email" className="from-input email" required/>
                     
                 </div>
                 <textarea name="message" value={message} onChange={(e)=>{setMessage(e.target.value)}} placeholder="Enter Message Here" className="message-input" type="text" required/>
@@ -54,7 +54,7 @@ const Contact = () => {
                         return(
                             <div key={i}>
                                 <div className="channel-content-container">
-                                    <img src={c.img} className='channel-images'/>
+                                    <img src={c.img} className='channel-images' alt=""/>
                                     <div className="channel-details">{c.details}</div>
                                 </div>
                                 

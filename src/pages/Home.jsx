@@ -12,7 +12,7 @@ const Home = () => {
                     Hello I am Christopher Napoles A Web/Software Developer
                 </div>
                 <div className="img-container">
-                    <img className="img" src={Avatar}/>
+                    <img className="img" alt="avatar" src={Avatar}/>
                 </div>
                 <div className="btn-container">
                     <div className="btn">

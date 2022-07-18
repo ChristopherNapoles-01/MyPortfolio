@@ -36,7 +36,7 @@ const About = () => {
     return(
         <div className="body">
             <div className="about">
-                <img className="meImg" src={Me}/>
+                <img className="meImg" alt='' src={Me}/>
             </div>
             <div className='details'>
                   My name is Christopher P. Napoles born in August 1, 1999 currently lives in Santolan Pasig City.
@@ -47,7 +47,7 @@ const About = () => {
                 {
                     primary.map(e=>(
                         <div data-aos="fade" data-aos-once="false" className='icons-container'>
-                            <img className='icons' src={e.img}/>
+                            <img className='icons' alt='' src={e.img}/>
                             <div className='icons-label'>{e.label}</div>
                         </div>
                     ))
@@ -60,7 +60,7 @@ const About = () => {
                 {
                     fundamentals.map(e=>(
                         <div data-aos="fade" data-aos-once="false" className='icons-container'>
-                            <img className='icons' src={e.img}/>
+                            <img className='icons' alt='' src={e.img}/>
                             <div className='icons-label'>{e.label}</div>
                         </div>
                     ))

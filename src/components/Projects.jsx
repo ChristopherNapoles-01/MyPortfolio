@@ -45,7 +45,7 @@ import Phone from '../assets/projects/phone.png'
             img:[BookHome,BookPage],
             details:'The Book Worm web app is a book finder app that is made with react JS using google books api and bootstrap css',
             github:'https://github.com/ChristopherNapoles-01/book-finder',
-            link: 'https://christophernapoles-01.github.io/book/PXa2bby0oQ0C'
+            link: 'https://christophernapoles-01.github.io/book-finder/'
         },
         {
             name:'Marvel Guide Site',
