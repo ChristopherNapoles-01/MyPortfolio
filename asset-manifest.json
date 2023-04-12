@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.017afbc2.css",
-    "main.js": "/MyPortfolio/static/js/main.d373238e.js",
+    "main.js": "/MyPortfolio/static/js/main.bc3cdedd.js",
     "static/js/787.1ed0c42c.chunk.js": "/MyPortfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/naps.jpg": "/MyPortfolio/static/media/naps.dfbcb1b1ad95aed375a0.jpg",
     "static/media/nlogin.png": "/MyPortfolio/static/media/nlogin.aaee2ec6fd3b12bf7fa5.png",
@@ -18,6 +18,7 @@
     "static/media/stega2.png": "/MyPortfolio/static/media/stega2.a883fbdefc20c6d8abba.png",
     "static/media/pos.png": "/MyPortfolio/static/media/pos.ec9fe9a313b5cc844e87.png",
     "static/media/icon.png": "/MyPortfolio/static/media/icon.32d686abb85716c987f5.png",
+    "static/media/vue.png": "/MyPortfolio/static/media/vue.4626039760cedf966189.png",
     "static/media/mysql.jpg": "/MyPortfolio/static/media/mysql.09582192fc69ec9e0915.jpg",
     "static/media/linkin.png": "/MyPortfolio/static/media/linkin.ab4a89cfafbfc2451e5e.png",
     "static/media/mssql.png": "/MyPortfolio/static/media/mssql.f70e354d83b398949714.png",
@@ -34,11 +35,11 @@
     "static/media/logo.svg": "/MyPortfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/MyPortfolio/index.html",
     "main.017afbc2.css.map": "/MyPortfolio/static/css/main.017afbc2.css.map",
-    "main.d373238e.js.map": "/MyPortfolio/static/js/main.d373238e.js.map",
+    "main.bc3cdedd.js.map": "/MyPortfolio/static/js/main.bc3cdedd.js.map",
     "787.1ed0c42c.chunk.js.map": "/MyPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.017afbc2.css",
-    "static/js/main.d373238e.js"
+    "static/js/main.bc3cdedd.js"
   ]
 }
