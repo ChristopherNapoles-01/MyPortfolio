@@ -11,6 +11,7 @@ import Ajax from '../assets/ajax.jpg';
 import Java from '../assets/java.png';
 import Golang from '../assets/golang.png';
 import Tailwind from '../assets/projects/tailwind.png';
+import Laravel from '../assets/laravel.png';
 import Aos from "aos";
 import "aos/dist/aos.css";
 const About = () => {
@@ -20,7 +21,8 @@ const About = () => {
         {label:'NodeJs',img:Node},
         {label:'React', img: React},
         {label:'MongoDB', img: Mongo},
-        {label:'MySQL', img: MySql}
+        {label:'MySQL', img: MySql},
+        {label:'Laravel', img: Laravel}
     ];
     const fundamentals = [
         {label:'GoLang',img:Golang},
