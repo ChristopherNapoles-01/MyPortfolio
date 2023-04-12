@@ -12,6 +12,7 @@ import Java from '../assets/java.png';
 import Golang from '../assets/golang.png';
 import Tailwind from '../assets/projects/tailwind.png';
 import Laravel from '../assets/laravel.png';
+import Vue from '../assets/vue.png';
 import Aos from "aos";
 import "aos/dist/aos.css";
 const About = () => {
@@ -22,7 +23,7 @@ const About = () => {
         {label:'React', img: React},
         {label:'MongoDB', img: Mongo},
         {label:'MySQL', img: MySql},
-        {label:'Laravel', img: Laravel}
+        {label:'Laravel', img: Laravel},
     ];
     const fundamentals = [
         {label:'GoLang',img:Golang},
@@ -30,6 +31,7 @@ const About = () => {
         {label:'MSSQL',img:Mssql},
         {label:'Ajax/JQUERY',img:Ajax},
         {label:'Tailwind CSS',img:Tailwind},
+        {label:'Vue js', img: Vue}
         
     ];
     useEffect(()=>{
